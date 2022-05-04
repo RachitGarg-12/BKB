@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Imperial+Script&family=Island+Moments&family=Moon+Dance&family=Oooh+Baby&family=Vujahday+Script&display=swap');
+
+*{
+    /* font-family: 'Baloo 2', 'Island Moments'; */
+    font-size: 1.04rem;
+}
+
+a{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+
+.dropdown:hover .arrow{
+    transform: rotate(180deg);
+}
+
+.dropdown-content a{
+    font-size: 0.9rem;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.dropdown-content a i{
+    margin: 0 0.5rem;
+    color: #7520f5;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.text-muted{
+    color:rgb(124, 124, 124);
+}
+
+.text-util{
+    color:#7520f5;
+}
+
+.bg-util{
+    background-color:#7520f5;
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 0.7s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+

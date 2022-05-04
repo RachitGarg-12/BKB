@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{
+    .dropdown-content{
+        @apply  absolute bg-white z-10;
+    }
+} */
